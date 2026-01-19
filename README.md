@@ -42,11 +42,6 @@
 | **test-env.bat** | Vérifie que Docker est prêt |
 | **clean.bat** | Nettoie Docker complètement |
 
-### 📚 Documentation complète
-- **QUICK_START.md** - Guide de démarrage rapide (recommandé)
-- **DOCKER_README.md** - Documentation Docker complète
-- **DEV_GUIDE.md** - Guide de développement
-- **CHECKLIST.txt** - Checklist d'installation
 
 ---
 
@@ -187,17 +182,6 @@ docker-compose restart
 
 ---
 
-## 📖 Documentation
-
-Pour en savoir plus, consultez :
-
-- **QUICK_START.md** - Guide rapide (⭐ recommandé)
-- **DOCKER_README.md** - Documentation Docker détaillée
-- **DEV_GUIDE.md** - Guide de développement complet
-- **CHECKLIST.txt** - Checklist avant démarrage
-
----
-
 ## 🔧 Structure du projet
 
 ```
@@ -214,12 +198,6 @@ iotplatform/
 │   ├── logs.bat
 │   ├── test-env.bat
 │   └── clean.bat
-│
-├── 📚 Documentation
-│   ├── QUICK_START.md
-│   ├── DOCKER_README.md
-│   ├── DEV_GUIDE.md
-│   └── CHECKLIST.txt
 │
 ├── 💾 Données
 │   ├── sensor_data.json    (créé automatiquement)
@@ -267,7 +245,7 @@ Pour contribuire au projet :
 
 1. Modifier le code dans `src/`
 2. Tester avec `rebuild.bat`
-3. Consulter `DEV_GUIDE.md` pour plus d'infos
+
 
 ---
 
@@ -277,7 +255,6 @@ En cas de problème :
 
 1. **Vérifier l'environnement** : `test-env.bat`
 2. **Consulter les logs** : `logs.bat`
-3. **Lire la doc** : `QUICK_START.md` ou `DOCKER_README.md`
 
 ---
 
