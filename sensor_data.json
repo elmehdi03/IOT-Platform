@@ -3,36 +3,45 @@
         "unit": "°C",
         "sensorType": "TEMP",
         "location": "Station ThingSpeak (ID 9)",
-        "readingId": "f24afd8c-7cda-4898-800e-ab0b30aeef82",
-        "value": 20,
+        "readingId": "b6022555-7981-47a0-9673-d98f2091e818",
+        "value": 270,
         "sensorId": "S1",
-        "timestamp": 1760349944115
+        "timestamp": 1768865220487
+    },
+    {
+        "unit": "%",
+        "sensorType": "3",
+        "location": "CasaBlanca",
+        "readingId": "95a2ae89-3b93-482f-a855-cabd1d0429f6",
+        "value": 4,
+        "sensorId": "2",
+        "timestamp": 1768865189311
     },
     {
         "unit": "°C",
         "sensorType": "TEMP",
         "location": "Station ThingSpeak (ID 9)",
-        "readingId": "c82db319-19fe-4e85-b4bc-16274c383275",
-        "value": 20,
+        "readingId": "1c312a23-2944-42a7-bcaa-da526f8771fe",
+        "value": 270,
         "sensorId": "S1",
-        "timestamp": 1760350020364
+        "timestamp": 1768865194072
     },
     {
         "unit": "°C",
         "sensorType": "TEMP",
         "location": "Station ThingSpeak (ID 9)",
-        "readingId": "cadc37bf-9f76-4fb0-8243-686a6a8441e0",
-        "value": 20,
+        "readingId": "ce834017-4b83-40e0-9f66-33c333052e90",
+        "value": 270,
         "sensorId": "S1",
-        "timestamp": 1760349960384
+        "timestamp": 1768865190436
     },
     {
         "unit": "°C",
         "sensorType": "TEMP",
         "location": "Station ThingSpeak (ID 9)",
-        "readingId": "b6eeac3e-45f2-431f-9d4f-e63f9d46202d",
-        "value": 20,
+        "readingId": "10ff8b77-d616-470b-9e9e-03266cab26cf",
+        "value": 270,
         "sensorId": "S1",
-        "timestamp": 1760349990409
+        "timestamp": 1768865160617
     }
 ]

@@ -46,3 +46,9 @@ logs/
 # Décommenter si vous ne voulez pas committer les données
 # sensor_data.json
 
+### Documentation générée (fichiers inutiles pour le repo) ###
+INSTALLATION_COMPLETE.txt
+CHECKLIST.txt
+DEV_GUIDE.md
+QUICK_START.md
+
