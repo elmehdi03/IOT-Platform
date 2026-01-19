@@ -1,0 +1,2 @@
+private static final String JSON_FILE_PATH =
+        System.getProperty("user.dir") + "/data/sensor_data.json";

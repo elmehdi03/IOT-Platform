@@ -1,0 +1,38 @@
+[
+    {
+        "unit": "°C",
+        "sensorType": "TEMP",
+        "location": "Station ThingSpeak (ID 9)",
+        "readingId": "f24afd8c-7cda-4898-800e-ab0b30aeef82",
+        "value": 20,
+        "sensorId": "S1",
+        "timestamp": 1760349944115
+    },
+    {
+        "unit": "°C",
+        "sensorType": "TEMP",
+        "location": "Station ThingSpeak (ID 9)",
+        "readingId": "c82db319-19fe-4e85-b4bc-16274c383275",
+        "value": 20,
+        "sensorId": "S1",
+        "timestamp": 1760350020364
+    },
+    {
+        "unit": "°C",
+        "sensorType": "TEMP",
+        "location": "Station ThingSpeak (ID 9)",
+        "readingId": "cadc37bf-9f76-4fb0-8243-686a6a8441e0",
+        "value": 20,
+        "sensorId": "S1",
+        "timestamp": 1760349960384
+    },
+    {
+        "unit": "°C",
+        "sensorType": "TEMP",
+        "location": "Station ThingSpeak (ID 9)",
+        "readingId": "b6eeac3e-45f2-431f-9d4f-e63f9d46202d",
+        "value": 20,
+        "sensorId": "S1",
+        "timestamp": 1760349990409
+    }
+]

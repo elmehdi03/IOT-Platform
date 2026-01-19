@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  iotplatform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: iotplatform-app
+    ports:
+      - "8080:8080"
+    volumes:
+      # Montage du fichier JSON pour la persistance des données
+      - ./sensor_data.json:/app/sensor_data.json
+      # Logs TomEE accessibles en local
+      - ./logs:/usr/local/tomee/logs
+    environment:
+      - TZ=Europe/Paris
+      - JAVA_OPTS=-Xmx512m -Xms256m -Djava.awt.headless=true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    networks:
+      - iot-network
+
+networks:
+  iot-network:
+    driver: bridge
+
